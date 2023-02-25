@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+}
+
+.name {
+    float: left;
+    padding: 14px 16px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 28px;
+    color: black;
+    font-weight: 1000;
+    padding-left: 50px;
+    cursor: crosshair;
+}
+
+.part-one {
+    max-width: 100%;
+    height: 120vh;
+    background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/12/18105208/BREAMBLAST_201812_1920x700_PreRegBG.jpg);
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.part-two {
+    max-width: 100%;
+    height: 100vh;
+    background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2016/02/03135724/AB2_Clansbanners_1920x750_BG.jpg);
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.angry {
+    float: right;
+    padding-top: 100px;
+    padding-right: 120px;
+}
+
+.angry>img {
+    width: 600px;
+    height: 500px;
+}
+
+.dream {
+    float: right;
+    padding-top: 120px;
+    padding-right: 100px;
+}
+
+.dream>img {
+    width: 264px;
+    height: 175px;
+}
+
+.trailer {
+    align-items: center;
+    padding: 50px;
+}
+
+.info {
+    font-family: "Helvetica", "Verdana", sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.download {
+    background-color: #ffe400;
+    border: none;
+    color: dark-grey;
+    font-weight: 700;
+    padding: 16px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 18px;
+}
+
+.download:hover {
+    background-color: #999900;
+}
+
+video {
+    display: inline-block;
+    border: none;
+    padding: 10px 100px;
+    outline: 0px solid transparent;
+}
+
+.icon {
+    border: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.facebook-icon {
+    background-color: #3b5998;
+    color: white;
+    margin: 10px 4px;
+
+
+}
+
+.twitter-icon {
+    background-color: #00aced;
+    color: white;
+    margin: 10px 2px;
+
+
+}
+
+.youtube-icon {
+    background-color: #bb0000;
+    color: white;
+    margin: 10px 2px;
+}
+
+.insta-icon {
+    background-color: #517fa4;
+    color: white;
+    margin: 10px 2px;
+
+
+}
+
+.facebook-icon:hover {
+    background-color: white;
+    color: #3b5998;
+    border: 2px solid #3b5998;
+    margin: 5px 2px;
+}
+
+.twitter-icon:hover {
+    background-color: white;
+    color: #00aced;
+    border: 2px solid #00aced;
+    margin: 5px 0px;
+}
+
+.youtube-icon:hover {
+    background-color: white;
+    color: #bb0000;
+    border: 2px solid #bb0000;
+    margin: 5px 0px;
+}
+
+.insta-icon:hover {
+    background-color: white;
+    color: #517fa4;
+    border: 2px solid #517fa4;
+    margin: 5px 0px;
+}
+
+.part-three {
+    background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/01/24121930/AB2_NFL_feat.png);
+    max-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.part-two img {
+    width: 596;
+    height: 612;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.footer-icon {
+    border: none;
+    
+    text-align: center;
+    padding: 4px 7px;
+    
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.footer-logo {
+    cursor: pointer;
+}
+
+.footer-logo:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    padding: 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    font-size: 20px;
+}
